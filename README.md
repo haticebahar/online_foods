@@ -1,4 +1,35 @@
-# 🍱 Online Food Delivery - Müşteri Davranış Analizi
+# 🍱 Online Food Delivery - Customer Behavior Analysis
+
+This project analyzes online food delivery data from the Bangalore region to examine customer segmentation, demographic analysis, and feedback trends. It was prepared from the perspective of a **Technical Business Analyst** to generate meaningful business insights from raw data.
+
+## 🚀 Project Objective
+The goal is to analyze the demographic structures of platform users (Age, Income, Education, etc.) to determine which factors are effective on "Positive" feedback and "Order Repeat" (Output) and to provide data-driven support for business strategies.
+
+## 🛠 Technologies Used
+* **Python 3.x**
+* **Pandas & NumPy:** Data manipulation and cleaning.
+* **Matplotlib & Seaborn:** Data visualization (Countplots, Stacked Bar Charts).
+* **Jupyter Notebook:** Development environment.
+
+## 📋 Data Processing and Analysis Workflow
+The project follows these steps within the notebook:
+
+1.  **Data Cleaning:** Removal of unnecessary columns (`Unnamed: 12`) and checking for missing values.
+2.  **Feature Engineering:** Grouping age data (`AgeGroup`) to deepen the analysis.
+3.  **Exploratory Data Analysis (EDA):**
+    * **Age Group Analysis:** Identifying that the highest order density is in the 19-25 age range.
+    * **Education & Family Relationship:** The effect of education levels on order habits according to family size.
+    * **Income Distribution:** The effect of monthly income on feedback.
+    * **Gender and Occupation Distribution:** Platform usage of student and employee profiles.
+
+## 📊 Key Findings
+* **Target Audience:** According to the data, the most active user segment consists of singles and students in the **21-25 age** range.
+* **Feedback:** Positive feedback was observed to have a high correlation with specific income groups and education levels.
+* **Order Repeat:** Family size and education level distribution are critical metrics for the "Yes" (ordering) group.
+
+---
+
+# 🍱 Online Yemek Siparişi - Müşteri Davranış Analizi
 
 Bu proje, Bangalore bölgesindeki çevrimiçi yemek siparişi verilerini kullanarak müşteri segmentasyonu, demografik analiz ve geri bildirim trendlerini incelemektedir. Veri odaklı bir **Teknik İş Analisti** bakış açısıyla, ham veriden anlamlı iş içgörüleri üretmek amacıyla hazırlanmıştır.
 
@@ -27,11 +58,6 @@ Proje, notebook içerisinde adım adım şu aşamalardan geçmektedir:
 * **Geri Bildirim:** Pozitif geri bildirimlerin, belirli gelir grupları ve eğitim seviyeleriyle yüksek korelasyona sahip olduğu gözlemlenmiştir.
 * **Sipariş Tekrarı:** "Yes" (Sipariş veren) kitlesinde aile büyüklüğü ve eğitim durumu dağılımı kritik bir metriktir.
 
-## 📁 Dosya Yapısı
-* `Online_Foods.ipynb`: Tüm analiz, veri temizleme ve görselleştirme kodlarını içeren ana dosya.
-* `onlinefoods.csv`: Analizde kullanılan 388 kayıtlık veri seti.
-
-## ⚙️ Kurulum ve Çalıştırma
-1. Bu repoyu klonlayın:
-   ```bash
-   git clone [https://github.com/haticebahar/online_foods.git](https://github.com/haticebahar/online_foods.git)
+---
+**Prepared by / Hazırlayan:** [Hatice Bahar](https://github.com/haticebahar)  
+*Technical Business Analyst & Product Owner*
